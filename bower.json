@@ -29,6 +29,7 @@
     "components-font-awesome": "~4.4.0",
     "PACE": "HubSpot/pace#~1.0.2",
     "angular-ui-router": "~0.2.15",
-    "oclazyload": "~1.0.6"
+    "oclazyload": "~1.0.6",
+    "jquery-backstretch": "~2.0.4"
   }
 }
