@@ -1,0 +1,34 @@
+{
+  "name": "Checkout",
+  "version": "1.0.0",
+  "homepage": "https://letzchange.org/checkout",
+  "authors": [
+    "Nitin kushwaha<nitin.kushwaha@letzchange.org>"
+  ],
+  "description": "Checkout page for LetzChange",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "LetzChange",
+    "Checkout",
+    "NonProfit",
+    "Payment",
+    "Donations"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "components-font-awesome": "~4.4.0",
+    "PACE": "HubSpot/pace#~1.0.2",
+    "angular-ui-router": "~0.2.15",
+    "oclazyload": "~1.0.6"
+  }
+}
