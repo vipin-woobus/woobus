@@ -390,7 +390,10 @@ a.btn.btn-default.btn-teplok:focus{
 }
 .the-box-landing.the-box-light-grey{background: #f3f3f3;}
 .the-box-landing.the-box-transparent{background: transparent;}
-.the-box-landing.border-hover-bottom{border-bottom: 3px solid transparent;}
+.the-box-landing.border-hover-bottom{border-bottom: 3px solid transparent;
+    height: 285px;
+    max-height: 285px;
+}
 .the-box-landing:hover.border-hover-bottom{border-bottom-color: #e52f3c;}
 .the-box-landing.border-color-left{border-left: 3px solid #e52f3c;}
 .the-box-landing.border-color-top{border-top: 3px solid #e52f3c;}
@@ -402,7 +405,7 @@ a.btn.btn-default.btn-teplok:focus{
     margin: 0;
     padding: 0;
 }
-.the-box-landing h4{font-weight: 300;}
+.the-box-landing h4{font-weight: 500;}
 .the-box-landing p{font-size: 15px;}
 .the-box-landing img.small-icon{
     margin: 25px 0;
@@ -422,8 +425,9 @@ form.contact-form{margin: 40px 0;}
     line-height: 100%;
     display: inline-block;
     position: fixed;
-    right: 0;
-    bottom: 0;
+    right: 12px;
+    bottom: 10px;
+    border-radius: 6px;
 }
 #back-top a,
 #back-top a:hover,
@@ -559,7 +563,9 @@ footer a:focus{
 footer h5{
     color: #e52f3c;
     margin: 20px 0;
+    text-transform: uppercase;
 }
+footer h5 a{ color: #e52f3c;}
 footer ul{
     padding: 0;
     margin: 0;
@@ -575,4 +581,30 @@ footer .footer{
     -webkit-box-shadow: 0px -1px 1px 0px rgba(82,82,82,0.29);
     -moz-box-shadow: 0px -1px 1px 0px rgba(82,82,82,0.29);
     box-shadow: 0px -1px 1px 0px rgba(82,82,82,0.29);
+}
+
+/*social icons*/
+
+.social-icons a{ 
+    font-size: 28px;
+    font-style: normal;
+    color: #4d4641;
+    line-height: 0px;
+    font-family: 'FontAwesome';
+    margin: 0 2px
+     }
+
+
+/*about us page*/
+
+#about-us #header-landing{
+     padding: 0;
+}     
+.about-us-wrapper{
+    margin-top: 64px;
+    padding: 7% 0;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;	
 }
